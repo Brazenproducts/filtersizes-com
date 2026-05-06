@@ -1,0 +1,38 @@
+/* FilterSizes.com — Print Styles */
+@media print {
+  .site-header,
+  .site-footer,
+  .nav-toggle,
+  .hero-cta,
+  .rec-link {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: #000;
+    background: #fff;
+  }
+
+  .content-card,
+  .rec-card,
+  .feature-card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+
+  a {
+    color: #000;
+    text-decoration: underline;
+  }
+
+  table {
+    font-size: 10pt;
+  }
+
+  thead {
+    background: #eee !important;
+    color: #000 !important;
+  }
+}
